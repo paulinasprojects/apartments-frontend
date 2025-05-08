@@ -1,6 +1,12 @@
+import { Explore } from "@/components/explore"
+import { Hero } from "@/components/hero"
+
 const Homepage = () => {
   return (
-    <div>Homepage</div>
+    <>
+      <Hero/>
+      <Explore/>
+    </>
   )
 }
 
