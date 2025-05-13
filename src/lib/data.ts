@@ -1,1 +1,42 @@
-export const PropertiesCardData = [];
+export const PropertiesCardData = [
+  {
+    id: 1,
+    url: "presidential-towers",
+    name: "Presidential Towers",
+    addressLine1: "555 W Madison St,",
+    addressLine2: "Chicago, IL 60661",
+    image: "/card-image.jpg",
+    prices: "$1,605 - $9,400",
+    type: "Studio - 2 Beds",
+  },
+  {
+    id: 2,
+    url: "808-cleveland",
+    name: "The 808 Cleveland",
+    addressLine1: "808 N Cleveland Ave,",
+    addressLine2: "Chicago, IL 60610",
+    image: "/card-image1.jpg",
+    prices: "$1,333 - $6,494",
+    type: "Studio - 4 Beds",
+  },
+  {
+    id: 3,
+    url: "post",
+    name: "Post",
+    addressLine1: "853 W Blackhawk St,",
+    addressLine2: "Chicago, IL 60642",
+    image: "/card-image2.jpg",
+    prices: "$1,179 - $6,965",
+    type: "Studio - 4 Beds",
+  },
+  {
+    id: 4,
+    url: "next-apartments",
+    name: "Next Apartments",
+    addressLine1: "347 W Chestnut St,",
+    addressLine2: "Chicago, IL 60610",
+    image: "/card-image-3.jpg",
+    prices: "$2,209 - $3,840",
+    type: "Studio - 2 Beds",
+  },
+];
