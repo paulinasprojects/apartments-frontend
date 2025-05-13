@@ -16,12 +16,12 @@ export const PropertiesCard = () => {
                 <img src={property.image} alt="" className="rounded-tl-lg rounded-tr-lg md:w-[340px] max-sm:w-[340px]" />
               </Link>
               <div className="mt-4">
-                <p className="text-center font-light text-lg">{property.name}</p>
+                <p className="text-center font-costarLight text-lg">{property.name}</p>
               </div>
               <div className="text-center mt-8">
-                <p className="text-[15px] font-light">{property.addressLine1}</p>
-                <p className="text-[15px] font-light">{property.addressLine2}</p>
-                <p className="my-4 mx-4 text-[14px] font-light">{property.type} | {property.prices}</p>
+                <p className="text-[15px] font-costarLight">{property.addressLine1}</p>
+                <p className="text-[15px] font-costarLight">{property.addressLine2}</p>
+                <p className="my-4 mx-4 text-[14px] font-costarLight">{property.type} | {property.prices}</p>
               </div>
             </CardContent>
           </Card>
